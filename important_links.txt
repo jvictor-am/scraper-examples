@@ -1,0 +1,27 @@
+https://www.freecodecamp.org/news/scraping-ecommerce-website-with-python/
+https://dev.to/chrisgreening/visualizing-instagram-engagement-with-instascrape-326h
+https://github.com/chris-greening/instascrape
+
+https://www.freecodecamp.org/news/virtualenv-with-virtualenvwrapper-on-ubuntu-18-04/
+how_to_make_virtualenv
+cd
+mkdir .virtualenv
+sudo apt install python3-pip
+pip3 --version
+pip3 install virtualenv
+which virtualenv
+pip3 install virtualenvwrapper
+
+nano ~/.bashrc
+#Virtualenvwrapper settings:
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_VIRTUALENV=/home/your_username/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+
+mkvirtualenv name_of_your_env
+Python -V
+deactivate
+
+workon
+lsvirtualenv
